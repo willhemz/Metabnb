@@ -42,6 +42,12 @@ module.exports = {
       },
       fontSize: {
         '5.5xl': ['56px', {lineHeight:'1.25'}]
+      },
+      scale: {
+        60: '.6'
+      },
+      screens: {
+        avg: '800px'
       }
     },
   },
