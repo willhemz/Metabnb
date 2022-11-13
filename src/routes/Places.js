@@ -157,14 +157,14 @@ const Places = () => {
                     return <>
                         <div className='border-2 border-tertiary rounded-xl p-2 h-92 font-redRose text-xs' key={id}>
                             <img className='h-3/4 w-full' src={url} alt={name} />
-                            <div className='grid grid-cols-3 gap-3 mt-3'>
-                                <div className='text-xs col-span-1'>
-                                    <p className='mb-2'>{name}</p>
-                                    <p className='text-cardW' style={{fontSize:'10px'}}>{distance}</p>
+                            <div className='flex items-center justify-between gap-2 mt-4'>
+                                <div className='flex flex-col justify-between text-xs'>
+                                    <p className='mb-2 text-xs semiLg:text-s4 midLg:text-xs'>{name}</p>
+                                    <p className='text-xs sm:text-s1 semiLg:text-s2 midLg:text-s1'>{distance}</p>
                                 </div>
-                                <div className='text-right text-xs col-span-2'>
+                                <div className='flex flex-col justify-between text-right'>
                                     <p className='mb-2 font-bold'>{price}</p>
-                                    <p style={{fontSize:'10px'}}>{duration}</p>
+                                    <p className='text-xs sm:text-s1 semiLg:text-s2 midLg:text-s1'>{duration}</p>
                                 </div>
                             </div>
                             <div className='flex mt-3'>

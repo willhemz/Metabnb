@@ -19,8 +19,8 @@ module.exports = {
       },
       width: () => ({
         'imgW': '234px',
-        'cardW': '8px',
-        'walletW': '600px'
+        'walletW': '600px',
+        'photoW': '292px'
       }),
       colors: {
         primary: '#434343',
@@ -41,13 +41,19 @@ module.exports = {
         ],
       },
       fontSize: {
-        '5.5xl': ['56px', {lineHeight:'1.25'}]
+        '5.5xl': ['56px', {lineHeight:'1.25'}],
+        's3': ['6px', {lineHeight:'1'}],
+        's2': ['8px', {lineHeight:'1'}],
+        's1': ['10px', {lineHeight:'1'}],
+        's4': ['11px', {lineHeight:'1'}],
       },
       scale: {
         60: '.6'
       },
       screens: {
-        avg: '800px'
+        avg: '800px',
+        semiLg: '1024px',
+        midLg: '1048px',
       }
     },
   },
