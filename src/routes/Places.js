@@ -163,7 +163,7 @@ const Places = () => {
                                     <p className='text-cardW' style={{fontSize:'10px'}}>{distance}</p>
                                 </div>
                                 <div className='text-right text-xs col-span-2'>
-                                    <p className='mb-2'>{price}</p>
+                                    <p className='mb-2 font-bold'>{price}</p>
                                     <p style={{fontSize:'10px'}}>{duration}</p>
                                 </div>
                             </div>
