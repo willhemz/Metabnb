@@ -4,7 +4,9 @@ A site developed by `Williams Balogun`
 
 ## Process
 
-- Firstly, ensured I had latest versions of **nvm**, **node** and **yarn** installed.
+- Firstly, created a copy of the figma design and studied the \
+  contents of the designs, properties and layouts.
+- Then, ensured I had latest versions of **nvm**, **node** and **yarn** installed.
 - Then, I set up my development environment using `create-react-app`.
 
 * So, I removed dependency and files not needed in the project that \
@@ -24,8 +26,17 @@ A site developed by `Williams Balogun`
   - Home.js
   - Places.js
   - Footer.js
-  - Root.js
+  - Root.js - containing the links to various routes in the page
   * subpages folder containing:
     - About.js
     - Wallet.js
     - PhotoSlides.js
+* In the src folder, created:
+  - Navbar.js - contains the menu bar section of the page. This is \
+    where the Root.js was utilized.
+  * Error.js - An error page that displays when a clicked route does\
+    not exist.
+* Then, set up the index.js to render effectively using \
+  createBrowserRouter, RouterProvider and Router from `react-router-dom`.
+  - The Navbar.js and Home.js was set to display on first load and \
+    other route displays on click.
