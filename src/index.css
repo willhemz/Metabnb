@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerImg {
+  @apply w-imgW h-imgH rounded-lg object-cover
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.imageCard {
+  @apply mx-16 grid sm:grid-cols-2 md:grid-cols-4 gap-3
+}
+
+.learn-btn {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.sectionBtn {
+  @apply font-semibold text-xs cursor-pointer
+}
+
+.link {
+  @apply text-lg text-white lg:text-black font-redRose font-semibold md:hover:text-secondary-200 md:hover:border-b md:hover:border-secondary-200 lg:focus:text-secondary-200
+}
+
+.wallet {
+  @apply lg:bg-gradColor rounded-lg text-lg font-semibold lg:px-2 lg:py-1 font-redRose text-white
+}
+
+.menu {
+  @apply absolute top-0 -left-full sm:-left-1/2 w-full sm:w-1/2 h-96 lg:h-auto p-4 flex flex-col justify-around bg-secondary-200 transition-transform z-50
+}
+
+.setRule {
+  @apply overflow-visible
+}
+
+.modalShow {
+  @apply translate-x-full
 }
