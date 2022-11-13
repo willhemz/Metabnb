@@ -36,7 +36,7 @@ A site developed by `Williams Balogun`
     where the Root.js was utilized.
   * Error.js - An error page that displays when a clicked route does\
     not exist.
-* Then, set up the index.js to render effectively using \
+* Then, set up the **index.js** to render effectively using \
   createBrowserRouter, RouterProvider and Router from `react-router-dom`.
-  - The Navbar.js and Home.js was set to display on first load and \
-    other route displays on click.
+  - The _Navbar.js_ and _Home.js_ was set to display on first load\
+    and other route displays on click.
