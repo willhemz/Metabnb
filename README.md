@@ -45,5 +45,10 @@ A site developed by `Williams Balogun`
 * The styling was then done using tailwind css to give the site a \
   good layout, beauty and responsiveness.
 
-`**Site**`
+## **`Site`**
+
 [Visit Site](https://ihemz-metabnb.netlify.app)
+
+## Issues
+
+Post issues here @ [repo-link](https://github.com/willhemz/Metabnb/issues)
