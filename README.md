@@ -40,3 +40,10 @@ A site developed by `Williams Balogun`
   createBrowserRouter, RouterProvider and Router from `react-router-dom`.
   - The _Navbar.js_ and _Home.js_ was set to display on first load\
     and other route displays on click.
+* Proceeded to writing my codes based on the figma layout provided \
+  into the relative components related to webpage and routes.
+* The styling was then done using tailwind css to give the site a \
+  good layout, beauty and responsiveness.
+
+`**Site**`
+[Visit Site](https://ihemz-metabnb.netlify.app)
